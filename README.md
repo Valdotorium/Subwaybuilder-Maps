@@ -7,7 +7,7 @@
 
 This pack includes Fukuoka (Japan), Vancouver (Canada), and Singapore (Whatever country this might be in...)
 
-The Data has been generated with early commute and resident data generation scripts by Subwaybuilder modders from discord from pre - 1.0.0 times, so **the commute and residents data is not based on real census data and the resolution is quite inconsistent, but it is mostly reasonable and playable.**
+The Data has been generated with early commute and resident data generation scripts from Kronifers subwaybuilder patcher. (https://github.com/Kronifer/subwaybuilder-patcher) so **the commute and residents data is not based on real census data and the resolution is quite inconsistent, but it is mostly reasonable and playable.**
 
 ### Quality by city:
 
