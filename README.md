@@ -14,11 +14,17 @@ The Data has been generated with early commute and resident data generation scri
 As OpenStreetMap coverage varies country by country, and i dont know how the algorithms generating demand data work (i might change them at some point), the quality of cities varies (a lot)
 
 Fukuoka: Good (Data Resolution: Very Good, Buildings: Good)
+
 Warsaw: Good (Data Resolution: Very Good, Buildings: Good)
+
 Singapore: OK (Data Resolution: OK, Buildings: Good)
+
 Athens: OK (Data Resolution: OK, Buildings: OK)
+
 Vancouver: Meh (Data Resolution: Bad, Buildings: Good)
+
 Cape Town: Bad (Data Resolution: Terrible, Buildings: OK)
+
 Dublin: Bad (Data Resolution: Terrible, Buildings: OK)
 
 ## Features
