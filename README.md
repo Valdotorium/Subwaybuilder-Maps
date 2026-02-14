@@ -9,15 +9,17 @@ This pack includes Fukuoka (Japan), Vancouver (Canada), and Singapore (Whatever 
 
 The Data has been generated with early commute and resident data generation scripts from Kronifers subwaybuilder patcher. (https://github.com/Kronifer/subwaybuilder-patcher) so **the commute and residents data is not based on real census data and the resolution is quite inconsistent, but it is mostly reasonable and playable.**
 
-### Quality by city:
+### Quality by city (best to worst)
 
-Singapore: Good (Data Resolution: OK, Buildings: Good)
-Fukuoka: Good (Data Resolution: Good, Buildings: OK)
-Vancouver: Mid (Data Resolution: Bad, Buildings: Good)
-Warsaw: ?
-Athens: ?
-Dublin: ?
-Cape Town: ?
+As OpenStreetMap coverage varies country by country, and i dont know how the algorithms generating demand data work (i might change them at some point), the quality of cities varies (a lot)
+
+Fukuoka: Good (Data Resolution: Very Good, Buildings: Good)
+Warsaw: Good (Data Resolution: Very Good, Buildings: Good)
+Singapore: OK (Data Resolution: OK, Buildings: Good)
+Athens: OK (Data Resolution: OK, Buildings: OK)
+Vancouver: Meh (Data Resolution: Bad, Buildings: Good)
+Cape Town: Bad (Data Resolution: Terrible, Buildings: OK)
+Dublin: Bad (Data Resolution: Terrible, Buildings: OK)
 
 ## Features
 
