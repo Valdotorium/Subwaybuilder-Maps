@@ -15,7 +15,7 @@ As OpenStreetMap coverage varies country by country, and i dont know how the alg
 
 Fukuoka: Good (Data Resolution: Very Good, Buildings: Good)
 
-Warsaw: Good (Data Resolution: Very Good, Buildings: Good)
+Warsaw: Good (Data Resolution: Good, Buildings: Good)
 
 Singapore: OK (Data Resolution: OK, Buildings: Good)
 
