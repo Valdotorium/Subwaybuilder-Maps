@@ -1,0 +1,14 @@
+{
+    "id": "com.valdotorium.BER",
+    "name": "Berlin Mod",
+    "description": "Adds Berlin to Subway Builder",
+    "version": "1.0.0",
+    "author": {
+        "name": "mhmoeller & valdotorium",
+        "url": "https://github.com/mhmoeller"
+    },
+    "main": "index.js",
+    "license": "MIT",
+    "subwayBuilderVersion": ">=1.0.0",
+    "homepage": "https://github.com/valdotorium/subwaybuilder-maps"
+}

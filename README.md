@@ -1,13 +1,15 @@
-# Subway Builder – Map Mods collection: Fukuoka, Vancouver, Singapore, Cape Town, Warsaw, Athens, Dublin
+# Subway Builder – Map Mods collection: Fukuoka, Berlin, Singapore, Sapporo, Warsaw, Athens, Vancouver
 
 **These mods are modified Versions of mhmoellers Copenhagen City Mod.**
 **You can find the original Copenhagen City Mod (published under the MIT license as far as i know) here: https://github.com/mhmoeller/SubwayBuilder-CPH**
 
 ## Cities and Data Quality
 
-This pack includes Fukuoka (Japan), Vancouver (Canada), and Singapore (Whatever country this might be in...)
+This pack includes Fukuoka (Japan), Berlin (Germany), and Singapore (Whatever country this might be in...), and some more cities.
 
 The Data has been generated with early commute and resident data generation scripts from Kronifers subwaybuilder patcher. (https://github.com/Kronifer/subwaybuilder-patcher) so **the commute and residents data is not based on real census data and the resolution is quite inconsistent, but it is mostly reasonable and playable.**
+
+There are some - lets call it - unconventional people counts in some places, (like 27.000 people living and 200.000 people working at athens airport) - i have tried fixing some of them, but right not there is not very much i can do.
 
 ## Features
 
@@ -23,17 +25,24 @@ Fukuoka: Good (Data Resolution: Very Good, Buildings: Good)
 
 Singapore: Good (Data Resolution: Good, Buildings: Good)
 
+Berlin: Good (Data Resolution: Good, Buildings: Good)
+
 Warsaw: OK (Data Resolution: OK, Buildings: Good)
 
 Athens: OK (Data Resolution: OK, Buildings: OK)
 
 Vancouver: Meh (Data Resolution: Bad, Buildings: Good)
 
+Sapporo: ? (Good) (Data Resolution: Very dense but i dint know if playable, Buildings: Good)
+
+**Removed:**
+
 Cape Town: Bad (Data Resolution: Terrible, Buildings: OK)
 
 Dublin: Bad (Data Resolution: Terrible, Buildings: OK)
 
 Scale:
+
 Data Resolution: How well spaced and reasonable the demand data is.
 The more pops there are, the more playable / realistic it gets.
 Good means the map is well playable, while Bad or Terrible mean that pops are often miles apart and very small / large
@@ -51,9 +60,11 @@ The installation process is automated to ensure all data files end up in the cor
 
 1. Make sure all requirements are met
 
-2. **Download the Code, unzip it and move the individual city mods (YVR, SIN, FUK, ...) into your games mod folder.**
+2. **Download the Code, unzip it and move the individual city mods (YVR, SIN, FUK, ...) **
 
-3. Run the Installer:
+3. **Move all the city mods (not alltiles, as this folder is just required to host the tiles of the maps and is not a mod)
+
+4. Run the Installer (install.sh /install.bat) in every city folder.
 
 #### Windows:
 Double-click install.bat inside the CPH folder.
