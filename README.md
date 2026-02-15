@@ -60,9 +60,9 @@ The installation process is automated to ensure all data files end up in the cor
 
 1. Make sure all requirements are met
 
-2. **Download the Code, unzip it and move the individual city mods (YVR, SIN, FUK, ...) **
+2. **Download the Code, and unzip it.**
 
-3. **Move all the city mods (not alltiles, as this folder is just required to host the tiles of the maps and is not a mod)
+3. **Move all the city mods you want to play to the games mods folder**(not alltiles, as this folder is just required to host the tiles of the maps and is not a mod)
 
 4. Run the Installer (install.sh /install.bat) in every city folder.
 
