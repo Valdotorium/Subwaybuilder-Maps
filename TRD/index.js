@@ -99,7 +99,7 @@ async function initMod() {
         api.registerCity({
             name: "Trondheim",
             code: "TRD",
-            description: "Trondheim, a relatively largecity in Northern Norway, and only has 1 tram line?",
+            description: "Trondheim, a relatively large city in Northern Norway that only has 1 tram line...",
             population: 300000,
             initialViewState: {
                 zoom: 13.5,
