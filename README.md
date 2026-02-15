@@ -105,6 +105,8 @@ Close the game entirely.
 Restart the game.
 Start a New Game and select CPH as your city.
 
+5. **Start the server** by executing pmtiles in your alltiles folder, either by executing serve.sh / serve.bat in the alltiles folder or using this command in the alltiles folder **./pmtiles serve . --port 8081 --cors="*"**
+
 ### Notes
 Data Files: The installer moves ocean_depth_index.json.gz, roads.geojson.gz, buildings_index.json.gz, etc., to the game's internal data structure.
 
