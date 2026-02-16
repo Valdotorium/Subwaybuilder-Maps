@@ -1,7 +1,9 @@
 # Subway Builder – Map Mods collection: Fukuoka, Berlin, Singapore, Bengaluru, Sapporo, Trondheim, Warsaw, Athens, Vancouver
 
 **These mods are modified Versions of mhmoellers Copenhagen City Mod.**
-**You can find the original Copenhagen City Mod (published under the MIT license as far as i know) here: https://github.com/mhmoeller/SubwayBuilder-CPH**
+You can find the original Copenhagen City Mod (published under the MIT license as far as i know) here: https://github.com/mhmoeller/SubwayBuilder-CPH
+
+**Installation instructions are further down.**
 
 ## Cities and Data Quality
 
@@ -60,7 +62,7 @@ Node.js (Required to run the installer script)
 The files from this repository.
 
 ## Installation
-The installation process is automated to ensure all data files end up in the correct folders.
+The installation process is automated to ensure all data files end up in the correct folders. Read through all of the instructions *carefully*.
 
 **Problems during installation?**
 
