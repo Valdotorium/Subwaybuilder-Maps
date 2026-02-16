@@ -73,7 +73,7 @@ The installation process is automated to ensure all data files end up in the cor
 #### Windows:
 Double-click install.bat inside the CPH folder.
 
-If this does not work,  open a terminal in the cities folder (You may have to look up how that works)
+If this does not work, open a terminal in the cities folder (You may have to look up how that works)
    and then just enter `node install.js` (if you have node already installed, if not, get it from https://nodejs.org/en or run `ìnstall.bat` in the terminal.
    
 #### macOS:
@@ -102,6 +102,9 @@ Generate a serve.bat or serve.sh file for you.
 5. **Start the server** by executing pmtiles in your alltiles folder. First, try executing (double click) serve.sh in the alltiles folder.
 If this does not work, try this: Open a terminal in the alltiles folder and use this command: `./pmtiles serve . --port 8081 --cors="*" `on mac or `pmtiles.exe serve . --port 8081 --cors="*" on windows` (at least i think thats what the command for windows would look like...)
 Once you see lines like `Serving  . on port 8081 and interface 0.0.0.0 with Access-Control-Allow-Origin: *` it worked.
+## Problems?
+
+If you have problems during the installation (like node or pmtiles not being installed), you can probably read from here on in discore, where ive explained most things: https://discord.com/channels/1420846272545296470/1472331743154671709/1472927667706925157
 
 ## How to Play
 Start the Map Server.
