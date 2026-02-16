@@ -68,10 +68,14 @@ The installation process is automated to ensure all data files end up in the cor
 
 3. **Move all the city mods you want to play to the games mods folder**(not alltiles, as this folder is just required to host the tiles of the maps and is not a mod)
 
-4. Run the Installer (install.sh /install.bat) in every city folder.
+4. Run the Installer (double click install.sh /install.bat) in every city folder. See the following paragraphs for platform-specific instructions.
 
 #### Windows:
 Double-click install.bat inside the CPH folder.
+
+If this does not work,  open a terminal in the cities folder (You may have to look up how that works)
+   and then just enter `node install.js` (if you have node already installed, if not, get it from https://nodejs.org/en or run `ìnstall.bat` in the terminal.
+   
 #### macOS:
 
 Method 1 (Recommended): Open Terminal, navigate to the CPH folder and run:
@@ -95,10 +99,12 @@ Wait for the script to finish. It will:
 Move the heavy data files (.gz) to the cities/data/(Whatever city you are adding) folder.
 Generate a serve.bat or serve.sh file for you.
 
+5. **Start the server** by executing pmtiles in your alltiles folder. First, try executing (double click) serve.sh in the alltiles folder.
+If this does not work, try this: Open a terminal in the alltiles folder and use this command: `./pmtiles serve . --port 8081 --cors="*" `on mac or `pmtiles.exe serve . --port 8081 --cors="*" on windows` (at least i think thats what the command for windows would look like...)
+Once you see lines like `Serving  . on port 8081 and interface 0.0.0.0 with Access-Control-Allow-Origin: *` it worked.
+
 ## How to Play
-Start the Map Server:
-Locate the serve.bat or serve.sh file (in the alltiles folder)
-Double-click it to start the local server.
+Start the Map Server.
 This will host all tiles of all cities in the pack, even if not downloaded.
 If this does not work, start it the same way install.bat or install.sh was.
 Keep this window open while playing.
@@ -109,7 +115,8 @@ Close the game entirely.
 Restart the game.
 Start a New Game and select CPH as your city.
 
-5. **Start the server** by executing pmtiles in your alltiles folder, either by executing serve.sh / serve.bat in the alltiles folder or using this command in the alltiles folder **./pmtiles serve . --port 8081 --cors="*" on mac or pmtiles.exe serve . --port 8081 --cors="*" on windows** or at least i think thats what the command for windows would look like...
+5. **Start the server** by executing pmtiles in your alltiles folder. First, try executing (double click) serve.sh in the alltiles folder.
+If this does not work, try this: Open a terminal in the alltiles folder and use this command: `./pmtiles serve . --port 8081 --cors="*" `on mac or `pmtiles.exe serve . --port 8081 --cors="*" on windows` (at least i think thats what the command for windows would look like...)
 
 ### Notes
 Data Files: The installer moves ocean_depth_index.json.gz, roads.geojson.gz, buildings_index.json.gz, etc., to the game's internal data structure.
