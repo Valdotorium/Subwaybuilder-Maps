@@ -76,29 +76,29 @@ If you have problems during the installation (like node or pmtiles not being ins
 
 3. **Move all the city mods you want to play to the games mods folder**(not alltiles, as this folder is just required to host the tiles of the maps and is not a mod)
 
-4. Run the Installer (double click install.sh /install.bat) in every city folder. See the following paragraphs for platform-specific instructions.
+4. Run the Installer for every city you want to play (double click install.sh /install.bat) in every city folder. See the following paragraphs for platform-specific instructions.
 
 #### Windows:
-Double-click install.bat inside the CPH folder.
+Double-click install.bat inside the Cities folder.
 
 If this does not work, open a terminal in the cities folder (You may have to look up how that works)
    and then just enter `node install.js` (if you have node already installed, if not, get it from https://nodejs.org/en or run `ìnstall.bat` in the terminal.
    
 #### macOS:
 
-Method 1 (Recommended): Open Terminal, navigate to the CPH folder and run:
+Method 1 (Recommended): Open Terminal, navigate to the Cities folder and run:
 ```
 ./install.sh
 ```
 Method 2: Right-click install.sh, select "Open With" → "Terminal"
 
-Method 3: In Finder, open the CPH folder, then open Terminal and drag install.sh into the Terminal window, press Enter
+Method 3: In Finder, open the Cities folder, then open Terminal and drag install.sh into the Terminal window, press Enter
 
 If you get a "permission denied" error, try the linux solution, it worked for me. The command for linux (chmod +x) gives the program permission to run.
 
 #### Linux:
 
-Open a terminal in the CPH folder and run:
+Open a terminal in the Cities folder and run:
 ```
 chmod +x install.sh
 ./install.sh
